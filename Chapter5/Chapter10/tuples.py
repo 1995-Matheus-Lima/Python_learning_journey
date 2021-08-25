@@ -1,0 +1,8 @@
+isNotATuple = ('a')
+isATuple = ('a',)
+print(type(isNotATuple))
+print(type(isATuple))
+shortAlphabet = tuple('Alphabet')
+shortAlphabet2 = tuple(['A','l','p','h','a','b','e','t',['Alphabet']])
+print(shortAlphabet)
+print(shortAlphabet2[:len(shortAlphabet2)-1])
